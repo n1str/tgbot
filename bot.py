@@ -19,7 +19,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 BUTTON_SEND_TEXT_TO_CHAT = 'Отправить текст с кнопки в чат'
-
+"""юра лох"""
 async def start(update: Update, _: CallbackContext) -> None:
     name = update.message.from_user.first_name
     if not name:
